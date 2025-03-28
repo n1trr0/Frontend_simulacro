@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "frontendtest"
-          entrypoint: "main.ts"
+          entrypoint: "index.tsx"
           root: "."
           
           
